@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend;
+package com.lautaro.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
