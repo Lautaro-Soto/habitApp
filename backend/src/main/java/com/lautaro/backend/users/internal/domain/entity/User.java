@@ -1,7 +1,8 @@
-package com.s20_18_T_WebApp.backend.users.internal.domain.entity;
+package com.lautaro.backend.users.internal.domain.entity;
 
-import com.s20_18_T_WebApp.backend.shared.domain.entity.BaseEntity;
-import com.s20_18_T_WebApp.backend.shared.domain.vo.Image;
+
+import com.lautaro.backend.shared.domain.entity.BaseEntity;
+import com.lautaro.backend.shared.domain.vo.Image;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;

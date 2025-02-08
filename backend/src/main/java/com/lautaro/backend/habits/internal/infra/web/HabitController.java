@@ -1,15 +1,14 @@
-package com.s20_18_T_WebApp.backend.habits.internal.infra.web;
+package com.lautaro.backend.habits.internal.infra.web;
 
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitCreationRequest;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitResponseDto;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitSearchCriteria;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitUpdateRequest;
-import com.s20_18_T_WebApp.backend.habits.internal.application.service.DailyProgressService;
-import com.s20_18_T_WebApp.backend.habits.internal.application.service.HabitSearchService;
-import com.s20_18_T_WebApp.backend.habits.internal.application.service.HabitService;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.HabitType;
-import com.s20_18_T_WebApp.backend.shared.application.dto.PageResponse;
-import lombok.RequiredArgsConstructor;
+import com.lautaro.backend.habits.internal.application.dto.HabitCreationRequest;
+import com.lautaro.backend.habits.internal.application.dto.HabitResponseDto;
+import com.lautaro.backend.habits.internal.application.dto.HabitSearchCriteria;
+import com.lautaro.backend.habits.internal.application.dto.HabitUpdateRequest;
+import com.lautaro.backend.habits.internal.application.service.DailyProgressService;
+import com.lautaro.backend.habits.internal.application.service.HabitSearchService;
+import com.lautaro.backend.habits.internal.application.service.HabitService;
+import com.lautaro.backend.habits.internal.domain.enums.HabitType;
+import com.lautaro.backend.shared.application.dto.PageResponse;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

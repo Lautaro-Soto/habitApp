@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.shared.domain.vo;
+package com.lautaro.backend.shared.domain.vo;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

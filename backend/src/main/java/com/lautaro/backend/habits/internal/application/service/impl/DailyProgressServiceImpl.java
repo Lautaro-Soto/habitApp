@@ -1,11 +1,11 @@
-package com.s20_18_T_WebApp.backend.habits.internal.application.service.impl;
+package com.lautaro.backend.habits.internal.application.service.impl;
 
-import com.s20_18_T_WebApp.backend.habits.internal.application.service.DailyProgressService;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.DailyProgress;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.ProgressStatus;
-import com.s20_18_T_WebApp.backend.habits.internal.infra.persistence.DailyProgressRepository;
-import com.s20_18_T_WebApp.backend.habits.internal.infra.persistence.HabitRepository;
+import com.lautaro.backend.habits.internal.application.service.DailyProgressService;
+import com.lautaro.backend.habits.internal.domain.entity.DailyProgress;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.enums.ProgressStatus;
+import com.lautaro.backend.habits.internal.infra.persistence.DailyProgressRepository;
+import com.lautaro.backend.habits.internal.infra.persistence.HabitRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

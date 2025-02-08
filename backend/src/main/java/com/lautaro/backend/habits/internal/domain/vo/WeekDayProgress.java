@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.habits.internal.domain.vo;
+package com.lautaro.backend.habits.internal.domain.vo;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

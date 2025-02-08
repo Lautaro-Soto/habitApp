@@ -1,8 +1,8 @@
-package com.s20_18_T_WebApp.backend.habits.internal.infra.persistence;
+package com.lautaro.backend.habits.internal.infra.persistence;
 
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.DailyProgress;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.ProgressStatus;
+import com.lautaro.backend.habits.internal.domain.entity.DailyProgress;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.enums.ProgressStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.config;
+package com.lautaro.backend.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

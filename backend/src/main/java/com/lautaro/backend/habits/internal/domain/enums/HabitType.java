@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.habits.internal.domain.enums;
+package com.lautaro.backend.habits.internal.domain.enums;
 
 public enum HabitType {
     // Podemos añadir mas tipos de habitos: meditation, personal project, free time, financial management.

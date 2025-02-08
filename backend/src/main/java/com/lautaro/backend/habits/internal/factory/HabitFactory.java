@@ -1,9 +1,11 @@
-package com.s20_18_T_WebApp.backend.habits.internal.factory;
+package com.lautaro.backend.habits.internal.factory;
 
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitCreationRequest;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.habitTypes.*;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.*;
+import com.lautaro.backend.habits.internal.application.dto.HabitCreationRequest;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.entity.habitTypes.*;
+import com.lautaro.backend.habits.internal.domain.enums.*;
+
+import static com.lautaro.backend.habits.internal.domain.enums.HabitType.*;
 
 public class HabitFactory {
 

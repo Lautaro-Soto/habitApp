@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.shared.application.dto;
+package com.lautaro.backend.shared.application.dto;
 
 
 //import io.swagger.v3.oas.annotations.media.Schema;

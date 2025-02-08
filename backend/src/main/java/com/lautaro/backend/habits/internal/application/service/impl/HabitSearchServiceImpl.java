@@ -1,10 +1,11 @@
-package com.s20_18_T_WebApp.backend.habits.internal.application.service.impl;
+package com.lautaro.backend.habits.internal.application.service.impl;
 
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitResponseDto;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitSearchCriteria;
-import com.s20_18_T_WebApp.backend.habits.internal.application.service.HabitSearchService;
-import com.s20_18_T_WebApp.backend.habits.internal.infra.persistence.HabitSearchQuery;
-import com.s20_18_T_WebApp.backend.shared.application.dto.PageResponse;
+
+import com.lautaro.backend.habits.internal.application.dto.HabitResponseDto;
+import com.lautaro.backend.habits.internal.application.dto.HabitSearchCriteria;
+import com.lautaro.backend.habits.internal.application.service.HabitSearchService;
+import com.lautaro.backend.habits.internal.infra.persistence.HabitSearchQuery;
+import com.lautaro.backend.shared.application.dto.PageResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

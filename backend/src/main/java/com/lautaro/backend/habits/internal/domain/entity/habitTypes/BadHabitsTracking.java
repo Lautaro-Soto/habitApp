@@ -1,8 +1,8 @@
-package com.s20_18_T_WebApp.backend.habits.internal.domain.entity.habitTypes;
+package com.lautaro.backend.habits.internal.domain.entity.habitTypes;
 
 
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.HabitType;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.enums.HabitType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;

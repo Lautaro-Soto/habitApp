@@ -1,10 +1,9 @@
-package com.s20_18_T_WebApp.backend.habits.internal.application.service;
+package com.lautaro.backend.habits.internal.application.service;
 
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitCreationRequest;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitResponseDto;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitTypeDTO;
-import com.s20_18_T_WebApp.backend.habits.internal.application.dto.HabitUpdateRequest;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.application.dto.HabitCreationRequest;
+import com.lautaro.backend.habits.internal.application.dto.HabitResponseDto;
+import com.lautaro.backend.habits.internal.application.dto.HabitTypeDTO;
+import com.lautaro.backend.habits.internal.application.dto.HabitUpdateRequest;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

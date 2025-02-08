@@ -1,4 +1,4 @@
-package com.s20_18_T_WebApp.backend.shared.domain.entity;
+package com.lautaro.backend.shared.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
