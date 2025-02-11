@@ -1,12 +1,13 @@
 package com.lautaro.backend.habits.internal.application.dto.habitTypeDetails;
 
-import com.lautaro.backend.habits.internal.application.dto.habitTypeDetails.FinancesDetailsDTO;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.entity.habitTypes.*;
 
 public sealed interface HabitDetailsDto
-        permits BadHabitsTrackingDetailsDTO, FinancesDetailsDTO, HealthyLivingDetailsDTO, LearningDetailsDTO, OtherHabitDetailDTO, PhysicalActivityDetailsDTO, SocialActivityDetailsDTO, FinancesDetailsDTO {
+        permits BadHabitsTrackingDetailsDTO, FinancesDetailsDTO, HealthyLivingDetailsDTO, LearningDetailsDTO, OtherHabitDetailDTO, PhysicalActivityDetailsDTO, SocialActivityDetailsDTO {
 
 
-    static HabitDetailsDto fromEntity(com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit habit) {
+    static HabitDetailsDto fromEntity(Habit habit) {
         return switch (habit.getType()) {
             case BAD_HABITS -> BadHabitsTrackingDetailsDTO.fromEntity((BadHabitsTracking) habit);
             case FINANCES -> FinancesDetailsDTO.fromEntity((FinancesHabit) habit);
