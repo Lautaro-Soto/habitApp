@@ -1,6 +1,7 @@
 package com.lautaro.backend.habits.internal.application.dto.habitTypeDetails;
 
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.habitTypes.OtherHabit;
+
+import com.lautaro.backend.habits.internal.domain.entity.habitTypes.OtherHabit;
 
 public record OtherHabitDetailDTO(
     String customNotes

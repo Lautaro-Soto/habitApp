@@ -1,8 +1,9 @@
 package com.lautaro.backend.habits.internal.domain.entity.habitTypes;
 
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.Habit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.HabitType;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.LearningEnum;
+
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.enums.HabitType;
+import com.lautaro.backend.habits.internal.domain.enums.LearningEnum;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,7 +13,6 @@ import lombok.experimental.SuperBuilder;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.HashSet;
 import java.util.Set;
 
 

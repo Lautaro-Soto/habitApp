@@ -1,7 +1,7 @@
 package com.lautaro.backend.habits.internal.application.dto.habitTypeDetails;
 
-import com.s20_18_T_WebApp.backend.habits.internal.domain.entity.habitTypes.LearningHabit;
-import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.LearningEnum;
+import com.lautaro.backend.habits.internal.domain.entity.habitTypes.LearningHabit;
+import com.lautaro.backend.habits.internal.domain.enums.LearningEnum;
 
 public record LearningDetailsDTO(
     double value,
