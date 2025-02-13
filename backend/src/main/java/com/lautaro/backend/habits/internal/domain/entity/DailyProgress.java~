@@ -1,10 +1,13 @@
 package com.lautaro.backend.habits.internal.domain.entity;
 
-import com.lautaro.backend.habits.internal.domain.enums.ProgressStatus;
-import com.lautaro.backend.shared.domain.entity.BaseEntity;
+import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.HabitType;
+import com.s20_18_T_WebApp.backend.habits.internal.domain.enums.ProgressStatus;
+import com.s20_18_T_WebApp.backend.shared.domain.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDate;
 

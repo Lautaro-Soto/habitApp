@@ -1,5 +1,8 @@
 package com.lautaro.backend.habits.internal.application.dto;
 
+import com.lautaro.backend.habits.internal.application.dto.habitTypeDetails.HabitDetailsDto;
+import com.lautaro.backend.habits.internal.domain.entity.Habit;
+import com.lautaro.backend.habits.internal.domain.enums.HabitType;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
