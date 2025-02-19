@@ -20,7 +20,7 @@ public class SecurityConfig implements WebMvcConfigurer {
                 // Allow the specified HTTP methods
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 // Allow all headers
-                .allowedHeaders("*")
+                .allowedHeaders("/**")
                 // Do not allow credentials
                 .allowCredentials(false);
     }
